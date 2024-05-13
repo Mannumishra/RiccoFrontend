@@ -35,7 +35,6 @@ const Navbar = () => {
   }, []);
 
   const handleNavItemClick = () => {
-    // Close the navbar when a link is clicked
     const navbarToggler = document.querySelector('.navbar-toggler');
     const navbarCollapse = document.querySelector('.navbar-collapse');
     if (navbarCollapse.classList.contains('show')) {
@@ -45,7 +44,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="fixed-top">
+      <div>
         <div className='d-flex marquediv'  style={{ }}>
          {
           uppertext.map((item,index)=>

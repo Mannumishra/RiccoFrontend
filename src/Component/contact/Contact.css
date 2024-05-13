@@ -18,11 +18,11 @@
     justify-content: center;
     align-items: center;
 }
-.maindivcontact{
+/* .maindivcontact{
     margin-top: 140px
-}
+} */
 @media screen and (max-width: 768px) {
     .maindivcontact{
-        margin-top: 95px
+        margin-top: 5px
     }
 }

@@ -1,8 +1,8 @@
 .checkoutheigth{
-    margin-top: 140px;
+    margin-top: 5px;
 }
 @media screen and (max-width:768px) {
     .checkoutheigth{
-        margin-top: 100px;
+        margin-top: 10px;
     }
 }

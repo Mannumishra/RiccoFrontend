@@ -21,7 +21,7 @@ const Riccodetr = () => {
   }, [])
   return (
     <>
-      <div className='maindiv'>
+      <div className=''>
         <div className='florbadcum'>
           <div className='categoryname'>
             <p className='categorynametext'>Ricco Detergent Powder</p>

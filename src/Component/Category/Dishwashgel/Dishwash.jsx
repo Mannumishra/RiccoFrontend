@@ -20,7 +20,7 @@ const Dishwash = () => {
   }, [])
   return (
     <>
-    <div className='maindiv'>
+    <div className=''>
       <div className='florbadcum'>
         <div className='categoryname'>
           <p className='categorynametext'>Dishwash Gel</p>

@@ -22,7 +22,7 @@ const Supercleen = () => {
   return (
   <>
     <>
-      <div className='maindiv'>
+      <div className=''>
         <div className='florbadcum'>
           <div className='categoryname'>
             <p className='categorynametext'>Super Cleaner Product</p>

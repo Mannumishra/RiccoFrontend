@@ -55,9 +55,9 @@ const UpdateProfile = () => {
     }, [])
     return (
         <>
-            <div className='container' style={{ marginTop: "150px" }}>
+            <div className='container' style={{ marginTop: "10px" }}>
                 <div className='w-75 m-auto'>
-                    <h5 className='bg-primary text-center text-light p-2'><strong>Update</strong> Profile </h5>
+                    <h5 className='bg-dark text-center text-light p-2'><strong>Update</strong> Profile </h5>
                     <form onSubmit={postData}>
                         <div className="row mb-3">
                             <div className='col-md-6 '>
@@ -97,7 +97,7 @@ const UpdateProfile = () => {
                             </div>
                         </div>
                         <div className="mb-3 d-flex justify-content-between">
-                            <button type='submit' className='btn btn-primary w-100 text-light'>Update Profile</button>
+                            <button type='submit' className='btn btn-dark w-100 text-light'>Update Profile</button>
                         </div>
                     </form>
                 </div>

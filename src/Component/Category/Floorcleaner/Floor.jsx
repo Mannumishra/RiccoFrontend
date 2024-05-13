@@ -20,7 +20,7 @@ const Floor = () => {
   }, [])
   return (
     <>
-      <div className='maindiv'>
+      <div className=''>
         <div className='florbadcum'>
           <div className='categoryname'>
             <p className='categorynametext'>Floor Cleaner Product</p>

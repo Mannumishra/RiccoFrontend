@@ -22,7 +22,7 @@ const Bathroom = () => {
   }, [])
   return (
     <>
-      <div className='maindiv'>
+      <div className=''>
         <div className='florbadcum'>
           <div className='categoryname'>
             <p className='categorynametext'>Bathroom & Tile Cleaner Product</p>

@@ -52,7 +52,7 @@ export default function Cart() {
     return (
         <>
            {
-            data.length?   <div className="container-fluid py-3 maindiv">
+            data.length?   <div className="container-fluid py-3 ">
             <div className="container py-3">
                 <div className="table-responsive">
                     <table className="table">
@@ -118,7 +118,7 @@ export default function Cart() {
                 <div className="col-sm-8 col-md-7 col-lg-6 col-xl-4">
                     <div className="bg-light rounded">
                         {/* Removed subtotal and total section */}
-                        <Link to='/checkout' className="btn btn-primary border-primary w-100 text-light text-uppercase" type="button">Proceed Checkout</Link>
+                        <Link to='/checkout' className="btn btn-dark border-primary w-100 text-light text-uppercase" type="button">Proceed Checkout</Link>
                     </div>
                 </div>
             </div>

@@ -71,7 +71,7 @@ export default function Checkout() {
                     cart.length ?
                         <div className="row">
                             <div className="col-md-6">
-                                <h5 className='text-center p-2 bg-primary text-light'>Shipping Details</h5>
+                                <h5 className='text-center p-2 bg-dark text-light'>Shipping Details</h5>
                                 <table className='table table-bordered table-striped table-hover'>
                                     <tbody>
                                         <tr>
@@ -107,13 +107,13 @@ export default function Checkout() {
                                             <td>{user.state}</td>
                                         </tr>
                                         <tr>
-                                            <td colSpan={2}><Link to="/update-profile" className='btn btn-primary w-100'>Update</Link></td>
+                                            <td colSpan={2}><Link to="/update-profile" className='btn btn-dark w-100'>Update</Link></td>
                                         </tr>
                                     </tbody>
                                 </table>
                             </div>
                             <div className="col-md-6">
-                                <h5 className='text-center p-2 bg-primary text-light'>Products in Cart</h5>
+                                <h5 className='text-center p-2 bg-dark text-light'>Products in Cart</h5>
                                 <div className="table-responsive">
                                     <table className='table table-bordered'>
                                         <thead>
@@ -158,7 +158,7 @@ export default function Checkout() {
                                             </td>
                                         </tr>
                                         <tr>
-                                            <th colSpan={2}><button className='btn btn-primary w-100' onClick={placeOrder}>Place Order</button></th>
+                                            <th colSpan={2}><button className='btn btn-dark w-100' onClick={placeOrder}>Place Order</button></th>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -167,7 +167,7 @@ export default function Checkout() {
                         </div> :
                         <div className='text-center my-5'>
                             <p>No Items in Checkout</p>
-                            <Link to="/" className='btn btn-primary'>Shop</Link>
+                            <Link to="/" className='btn btn-dark'>Shop</Link>
                         </div>
                 }
             </div>
