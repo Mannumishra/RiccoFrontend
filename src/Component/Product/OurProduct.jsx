@@ -57,7 +57,7 @@ const OurProduct = () => {
                                 <div className='ourproduct' key={index}>
                                     <div className='image-container'>
                                         <img src={item.pic1} alt="" className='image-zoom' style={{ height: "270px", width: "100%" }} />
-                                        <span class="spanbutton" ><button className='normalbtnn text-light'>{item.tag}</button></span>
+                                        <span className="spanbutton" ><button className='normalbtnn text-light'>{item.tag}</button></span>
                                     </div>
                                     <div className='text-container'>
                                         <p><strong>{item.name}</strong></p>

@@ -45,21 +45,21 @@ const Contact = () => {
                 Get in Touch
               </div>
               <form action="" onSubmit={postdata}>
-                <div class="mb-3">
-                  <label for="exampleFormControlInput1" class="form-label">Name </label>
-                  <input type="text" class="form-control" name='name' onChange={getInputData} placeholder="Enter Name" />
+                <div classNam="mb-3">
+                  <label for="exampleFormControlInput1" className="form-label">Name </label>
+                  <input type="text" className="form-control" name='name' onChange={getInputData} placeholder="Enter Name" />
                 </div>
-                <div class="mb-3">
-                  <label for="exampleFormControlInput1" class="form-label">Email </label>
-                  <input type="email" class="form-control" name='email' onChange={getInputData} placeholder="Email Address" />
+                <div className="mb-3">
+                  <label for="exampleFormControlInput1" className="form-label">Email </label>
+                  <input type="email" className="form-control" name='email' onChange={getInputData} placeholder="Email Address" />
                 </div>
-                <div class="mb-3">
-                  <label for="exampleFormControlInput1" class="form-label">Phone </label>
-                  <input type="text" class="form-control"  name='phone' onChange={getInputData} placeholder="Phone" />
+                <div className="mb-3">
+                  <label for="exampleFormControlInput1" className="form-label">Phone </label>
+                  <input type="text" className="form-control"  name='phone' onChange={getInputData} placeholder="Phone" />
                 </div>
-                <div class="mb-4">
-                  <label for="exampleFormControlInput1" class="form-label">Message </label>
-                  <input type="text" class="form-control" name='message' onChange={getInputData} placeholder="Message" />
+                <div className="mb-4">
+                  <label for="exampleFormControlInput1" className="form-label">Message </label>
+                  <input type="text" className="form-control" name='message' onChange={getInputData} placeholder="Message" />
                 </div>
                 <div className="mb-3 btndiv">
                   <button className='contactbutton'>Send Message</button>

@@ -33,7 +33,7 @@ const Dishwash = () => {
               <div className='ourproductt' key={index}>
                 <div className='image-container'>
                   <img src={item.pic1} alt="" className='image-zoom' style={{ height: "270px", width: "100%" }} />
-                  <span class="spanbutton" ><button className='normalbtnn text-light'>sale</button></span>
+                  <span className="spanbutton" ><button className='normalbtnn text-light'>sale</button></span>
                   {/* <img src={item.pic2} alt="" className='image-zoom-hover' /> */}
                 </div>
                 <div className='text-container'>
