@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import './Home.css'
 import BeastSeller from '../Bestseller/BeastSeller'
-import OurProduct from '../Product/OurProduct'
 import Testimonial from '../Testimonial/Testimonial'
 import ProductCollection from '../Productcollection/ProductCollection'
 import axios from 'axios'
+import OurProduct from '../Product/OurProduct'
 
 const Home = () => {
   const [data, setData] = useState([])
@@ -59,7 +59,7 @@ const Home = () => {
         <ProductCollection />
       </div>
       <div>
-        <OurProduct />
+        < OurProduct/>
       </div>
       <div>
         <Testimonial />

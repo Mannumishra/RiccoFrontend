@@ -8,11 +8,10 @@ import axios from 'axios';
 
 const OurProduct = () => {
     const [data, setData] = useState([]);
-    // ghg
-
     const fetchData = async () => {
         try {
-            const response = await axios.get("https://api.myriccoproducts.com/api/product");
+            const response = await axios.get("https://api.myriccoproducts.com/api/product")
+            console.log(response)
             setData(response.data.data);
         } catch (error) {
             console.error('Error fetching data:', error);
