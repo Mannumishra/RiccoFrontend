@@ -1,0 +1,41 @@
+.normalbtnn {
+  border: 0px;
+  background-color: red;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  /* transform: rotate(-45deg); */
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spanbutton {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.ourproduct {
+  border: 1px solid #33333341;
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.1),
+    -4px -4px 4px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  position: relative;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  height: 40px;
+  width: 90%;
+}
+
+.text-container {
+  line-height: 15px;
+  padding: 10px;
+}

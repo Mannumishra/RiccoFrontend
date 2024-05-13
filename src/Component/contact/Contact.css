@@ -1,0 +1,28 @@
+.contactheading{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(7, 118, 118);
+}
+.contactbutton{
+    background-color: rgba(0, 0, 0, 0.502);
+    color: white;
+    align-items: center;
+    border: 0px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.btndiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.maindivcontact{
+    margin-top: 140px
+}
+@media screen and (max-width: 768px) {
+    .maindivcontact{
+        margin-top: 95px
+    }
+}

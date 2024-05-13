@@ -1,0 +1,20 @@
+.profileheight{
+    margin-top: 150px
+}
+.profileimage{
+    height: 300px;
+    width: 50%;
+    margin-left: 100px;
+}
+@media screen and (max-width: 768px) {
+    .profileheight{
+        margin-top: 100px
+    }
+    .profileimage{
+        height: 100px;
+        width: 100px;
+        margin-left: 140px;
+        margin-bottom: 5px;
+        border-radius: 50%;
+    }
+}

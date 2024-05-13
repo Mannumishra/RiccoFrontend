@@ -1,0 +1,44 @@
+.carousel-control-prev,
+.carousel-control-next {
+   color: orange;
+}
+.singlrpageimage{
+   height: 400px;
+   cursor: pointer;
+}
+.singlrpageimageslide{
+   height: 100px;
+   cursor: pointer;
+}
+.productdetailsheight{
+   margin-top: 90px;
+}
+.descriptionheading{
+   font-size: 23px;
+   opacity: 0.9;
+   font-weight: 700;
+   /* background-color: rgba(240, 255, 255, 0); */
+}
+.descriptionpara{
+   font-size: 16px;
+   font-weight: 500;
+   opacity: 0.9;
+   letter-spacing: 1px;
+}
+.descriptiondiv{
+   margin-top: 40px;
+   line-height: 20px;
+}
+@media screen and(max-width:768px) {
+   .singlrpageimage{
+      height: 200px !important;
+      cursor: pointer;
+   }
+   .singlrpageimageslide{
+      height: 50px !important;
+      cursor: pointer;
+   }
+   .productdetailsheight{
+      margin-top: 10px;
+   }
+}

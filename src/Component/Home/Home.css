@@ -1,0 +1,12 @@
+
+.maindiv{
+    margin-top: 138px;
+}
+.btncolor{
+    color: red !important;
+}
+@media screen and (max-width: 768px) {
+    .maindiv{
+        margin-top: 95px;
+    }  
+}

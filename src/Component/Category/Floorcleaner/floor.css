@@ -1,0 +1,36 @@
+.florbadcum {
+    height: 150px;
+    width: 100%;
+    background-color: #023047;
+
+}
+
+.categoryname {
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    text-transform: unset;
+}
+
+.ourproductt {
+    border: 1px solid #33333341;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.1),
+        -4px -4px 4px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 10px;
+}
+@media screen and (max-width: 768px) {
+    .ourproductt {
+        width: 90%;
+    }
+}
