@@ -8,11 +8,15 @@ import axios from 'axios';
 
 const OurProduct = () => {
     const [data, setData] = useState([]);
+    console.log('data', data)
+    const [loading, setLoading] = useState(false)
     const fetchData = async () => {
         try {
+            setLoading(true)
             const response = await axios.get("https://api.myriccoproducts.com/api/product")
-            console.log(response)
-            setData(response.data.data);
+            // console.log(response)
+            setData(response?.data?.data);
+            setLoading(false)
         } catch (error) {
             console.error('Error fetching data:', error);
         }
@@ -51,9 +55,12 @@ const OurProduct = () => {
                     <h3 className='text-center'>Products</h3>
                 </div>
                 <div className="row product">
-                    <OwlCarousel className='owl-theme' {...options}>
+                    {
+                        loading ? <h4>Product is Loading</h4> :
+                        (
+                            <OwlCarousel className='owl-theme' {...options}>
                         {
-                            data && data.map((item, index) =>
+                            data && data?.map((item, index) =>
                                 <div className='ourproduct' key={index}>
                                     <div className='image-container'>
                                         <img src={item.pic1} alt="" className='image-zoom' style={{ height: "270px", width: "100%" }} />
@@ -77,6 +84,8 @@ const OurProduct = () => {
                         }
 
                     </OwlCarousel>
+                        )
+                    }
                 </div>
             </div>
 
