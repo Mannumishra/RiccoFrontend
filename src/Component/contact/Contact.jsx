@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import "./Contact.css"
 import axios from 'axios'
 import toast from 'react-hot-toast'
@@ -18,14 +18,20 @@ const Contact = () => {
   const postdata = async (e) => {
     e.preventDefault()
     try {
-      let res = await axios.post("https://api.myriccoproducts.com/api/contact",data)
-      if(res.status===200){
+      let res = await axios.post("https://api.myriccoproducts.com/api/contact", data)
+      if (res.status === 200) {
         toast.success("Success Fully Send Details")
       }
     } catch (error) {
       console.log(error);
     }
   }
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    })
+  }, [])
   return (
     <>
 
@@ -55,7 +61,7 @@ const Contact = () => {
                 </div>
                 <div className="mb-3">
                   <label for="exampleFormControlInput1" className="form-label">Phone </label>
-                  <input type="text" className="form-control"  name='phone' onChange={getInputData} placeholder="Phone" />
+                  <input type="text" className="form-control" name='phone' onChange={getInputData} placeholder="Phone" />
                 </div>
                 <div className="mb-4">
                   <label for="exampleFormControlInput1" className="form-label">Message </label>

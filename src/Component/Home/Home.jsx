@@ -20,6 +20,10 @@ const Home = () => {
   }
   useEffect(() => {
     getBanner()
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    })
   }, [])
   return (
     <>
@@ -32,13 +36,13 @@ const Home = () => {
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
         </div>
         <div className="carousel-inner">
-         {
-          data.map((item,index)=>
-            <div className="carousel-item active">
-          <img src={item.image} className="d-block w-100" alt="..." />
-        </div>
-          )
-         }
+          {
+            data.map((item, index) =>
+              <div className="carousel-item active">
+                <img src={item.image} className="d-block w-100" alt="..." />
+              </div>
+            )
+          }
         </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
           <span className="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -59,7 +63,7 @@ const Home = () => {
         <ProductCollection />
       </div>
       <div>
-        < OurProduct/>
+        < OurProduct />
       </div>
       <div>
         <Testimonial />

@@ -30,7 +30,9 @@
   margin-top: 50px;
   margin-left: 100px;
 }
-
+.fistdivfooter div i{
+  font-size: 30px;
+}
 .newfooter {
   margin-top: -55px;
   padding: 100px;
@@ -40,6 +42,7 @@
   color: #595959;
   font-size: 17px;
   font-family: Futura sans-serif;
+  background-color:#f1f1f1;
 }
 
 .fistdivfooter {
@@ -73,7 +76,7 @@
     padding: 20px;
     display: flex;
     flex-direction: column;
-    width: 280px;
+    width: 100%;
     gap: 30px;
     font-size: 15px;
   }

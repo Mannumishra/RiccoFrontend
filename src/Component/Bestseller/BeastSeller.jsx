@@ -18,13 +18,11 @@ const BeastSeller = () => {
     },[])
     return (
         <>
-            <div className="container">
-                <div className="row bestseller">
-                    <div className="col-md-12">
-                        <h4 className='bestsellertext'>
+            <div className="bestseller">
+                <div className="bestseller">
+                        <p className='bestsellertext'>
                             Best Sellers
-                        </h4>
-                    </div>
+                        </p>
                 </div>
                 <div className='maindivbestproduct'>
                    {data.map((item,index)=>

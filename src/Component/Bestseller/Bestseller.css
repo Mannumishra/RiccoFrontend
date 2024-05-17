@@ -1,5 +1,8 @@
 /* Bestseller.css */
 
+.bestseller{
+
+}
 .bestproduct {
     height: 150px;
     border-radius: 50%;
@@ -11,8 +14,12 @@
 .bestsellertext {
     text-align: center;
     font-size: 30px;
-    font-weight: 750;
+    font-weight: 800;
+    background-color: #ffcc00; /* Fallback background color */
+    background-image: linear-gradient(to right, #ffcc00, #ff6666, #3399ff); 
+    
 }
+
 
 .maindivbestproduct {
     display: flex;
@@ -23,7 +30,7 @@
 }
 
 .bestseller {
-    padding: 30px;
+    padding: 10px 20px;
 }
 
 .bestname {
@@ -35,7 +42,7 @@
     .maindivbestproduct {
         display: flex;
         flex-wrap: wrap;
-        margin-top: -40px;
+        margin-top: 0px;
         gap: 25px;
     }
 
@@ -53,5 +60,8 @@
         text-align: center;
         font-size: 20px;
         font-weight: 550;
+    }
+    .bestseller {
+        padding: 13px 1px;
     }
 }

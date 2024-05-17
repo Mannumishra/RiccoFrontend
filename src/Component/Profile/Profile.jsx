@@ -37,6 +37,10 @@ const Profile = () => {
 
         getApiData();
         getOrderData();
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+          })
     }, []);
 
     // Pagination logic

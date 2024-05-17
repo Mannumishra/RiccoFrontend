@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './Login.css'
 import { Link, useNavigate } from 'react-router-dom'
 import axios from 'axios'
@@ -31,7 +31,7 @@ const Login = () => {
         toast.success("Login sucessfully")
         navigate("/profile")
         window.location.reload()
-        window.location.href="/profile"
+        window.location.href = "/profile"
       }
       else if (res.status === 401) {
         toast.error("Email Id and password does not matched")
@@ -40,6 +40,12 @@ const Login = () => {
       toast.error("Invaild username or password")
     }
   }
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  }, [])
 
   return (
     <>

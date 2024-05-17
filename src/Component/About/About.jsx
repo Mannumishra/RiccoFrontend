@@ -1,8 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './About.css'
 import OurProduct from '../Product/OurProduct'
 
 const About = () => {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    })
+  }, [])
   return (
     <>
       <div className="container  ourstory">
@@ -24,9 +30,9 @@ const About = () => {
         </div>
         <div className="row ">
           <h5 className='text-center ourheading'>Try These Our Product</h5>
-         <div style={{marginTop:"-130px"}}>
-         <OurProduct value={false} />
-         </div>
+          <div style={{ marginTop: "-130px" }}>
+            <OurProduct value={false} />
+          </div>
         </div>
       </div>
     </>

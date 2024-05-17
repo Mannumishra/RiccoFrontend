@@ -11,12 +11,12 @@
    cursor: pointer;
 }
 .productdetailsheight{
-   margin-top: 90px;
+   margin-top: 0px;
 }
 .descriptionheading{
-   font-size: 23px;
+   font-size: 25px;
    opacity: 0.9;
-   font-weight: 700;
+   font-weight: 800;
    /* background-color: rgba(240, 255, 255, 0); */
 }
 .descriptionpara{
@@ -24,21 +24,22 @@
    font-weight: 500;
    opacity: 0.9;
    letter-spacing: 1px;
+   text-align: justify;
 }
 .descriptiondiv{
    margin-top: 40px;
    line-height: 20px;
 }
-@media screen and(max-width:768px) {
+@media (max-width:768px) {
    .singlrpageimage{
       height: 200px !important;
       cursor: pointer;
    }
-   .singlrpageimageslide{
-      height: 50px !important;
-      cursor: pointer;
-   }
    .productdetailsheight{
-      margin-top: 10px;
+      margin-top: 0px;
    }
+   .singlrpageimageslide {
+      height: 90px;
+      cursor: pointer;
+  }
 }

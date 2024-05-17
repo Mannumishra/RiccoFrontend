@@ -20,7 +20,7 @@ const Testimonial = () => {
     useEffect(() => {
         getTestimonialData()
     }, [])
-    
+
     let options = {
         loop: true,
         margin: 10,
@@ -46,29 +46,28 @@ const Testimonial = () => {
     }
     return (
         <div className="testimonial-section">
-            <h5 className="section-title">Our Coustmor Review</h5>
+            <p className="section-title">Our Coustmor Review</p>
             <div className="testimonial-container">
                 <OwlCarousel className='owl-theme' {...options}>
-
                     {
-                        data.map((item, index) =>
+                        data && data.map((item, index) =>
                             <div className="testimonial">
                                 <div className="testimonial-content">
-                                   <div className="imgaediv">
-                                   <img src={item.image} alt="" className='textimonial-image'/>
-                                   </div>
-                                    <p className="testimonial-text">{item.message}</p>
+                                    <div className="imgaediv">
+                                        <img src={item.image} alt="" className='textimonial-image' />
+                                    </div>
                                     <p className="testimonial-author">{item.name}</p>
-                                    <div style={{ marginTop: "-20px" }}>
+                                    <p className="testimonial-text"> <span><i className="fa fa-quote-left text-orange"></i></span> {item.message} <span> <i className="fa fa-quote-right "></i></span></p>
+                                    {/* <div style={{ marginTop: "-20px" }}>
                                         <i className='fa fa-star text-warning'></i>
                                         <i className='fa fa-star text-warning'></i>
                                         <i className='fa fa-star text-warning'></i>
                                         <i className='fa fa-star text-warning'></i>
                                         <i className='fa fa-star '></i>
-                                    </div>
+                                    </div> */}
                                 </div>
                                 <div className="testimonial-icon">
-                                    <i className="fa fa-quote-left "></i>
+
                                 </div>
                             </div>
                         )

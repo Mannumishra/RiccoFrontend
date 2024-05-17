@@ -62,6 +62,10 @@ export default function Checkout() {
     useEffect(() => {
         getAPIData();
         getCartData();
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+          })
     }, []);
 
     return (

@@ -10,6 +10,7 @@ const OurProduct = () => {
     const [data, setData] = useState([]);
     console.log('data', data)
     const [loading, setLoading] = useState(false)
+    const pathname = '/'
     const fetchData = async () => {
         try {
             setLoading(true)
@@ -52,39 +53,39 @@ const OurProduct = () => {
         <>
             <div className="container mt-5 maindiv">
                 <div className="row mb-5">
-                    <h3 className='text-center'>Products</h3>
+                    <p className='productheading'>{pathname?"Product":""}</p>
                 </div>
                 <div className="row product">
                     {
                         loading ? <h4>Product is Loading</h4> :
-                        (
-                            <OwlCarousel className='owl-theme' {...options}>
-                        {
-                            data && data?.map((item, index) =>
-                                <div className='ourproduct' key={index}>
-                                    <div className='image-container'>
-                                        <img src={item.pic1} alt="" className='image-zoom' style={{ height: "270px", width: "100%" }} />
-                                        <span className="spanbutton" ><button className='normalbtnn text-light'>{item.tag}</button></span>
-                                    </div>
-                                    <div className='text-container'>
-                                        <p><strong>{item.name}</strong></p>
-                                        <p>{item.productdetails}</p>
-                                        <p className='Price_para'><del className='text-danger'>RS. {item.sizes[0].price}</del> Rs : {item.sizes[0].finalprice}</p>
-                                        <div className=" ">
-                                            <i className="fa fa-star text-warning"></i>
-                                            <i className="fa fa-star text-warning"></i>
-                                            <i className="fa fa-star text-warning"></i>
-                                            <i className="fa fa-star text-warning"></i>
-                                            <i className="fa fa-star"></i>
-                                        </div>
-                                        <Link to={`/productdetails/${item._id}`}> <button className='button mb-3'>Add To Cart</button></Link>
-                                    </div>
-                                </div>
-                            )
-                        }
+                            (
+                                <OwlCarousel className='owl-theme' {...options}>
+                                    {
+                                        data && data?.map((item, index) =>
+                                            <div className='ourproduct' key={index}>
+                                                <div className='image-container'>
+                                                    <img src={item.pic1} alt="" className='image-zoom' style={{ height: "270px", width: "100%" }} />
+                                                    <span className="spanbutton" ><button className='normalbtnn text-light'>{item.tag}</button></span>
+                                                </div>
+                                                <div className='text-container'>
+                                                    <p><strong>{item.name}</strong></p>
+                                                    <p>{item.productdetails}</p>
+                                                    <p className='Price_para'><del className='text-danger'>RS. {item.sizes[0].price}</del> Rs : {item.sizes[0].finalprice}</p>
+                                                    <div className=" ">
+                                                        <i className="fa fa-star text-warning"></i>
+                                                        <i className="fa fa-star text-warning"></i>
+                                                        <i className="fa fa-star text-warning"></i>
+                                                        <i className="fa fa-star text-warning"></i>
+                                                        <i className="fa fa-star"></i>
+                                                    </div>
+                                                    <Link to={`/productdetails/${item._id}`}> <button className='button mb-3'>Add To Cart</button></Link>
+                                                </div>
+                                            </div>
+                                        )
+                                    }
 
-                    </OwlCarousel>
-                        )
+                                </OwlCarousel>
+                            )
                     }
                 </div>
             </div>
