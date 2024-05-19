@@ -10,9 +10,9 @@
     font-size: 25px;
     font-weight: 800;
     text-align: center;
-    color: #ffcc00; /* Fallback color */
-    background-color: #ffcc00; /* Fallback background color */
-    background-image: linear-gradient(to right, #ffcc00, #ff6666, #3399ff); 
+    /* color: black;  */
+    /* background-color: #ffcc00; 
+    background-image: linear-gradient(to right, #ffcc00, #ff6666, #3399ff);  */
     border-radius: 5px;
     padding: 10px;
 

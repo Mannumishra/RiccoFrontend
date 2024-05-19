@@ -5,9 +5,9 @@
     font-size: 30px;
     font-weight: 700;
     text-align: center;
-    color: #ffcc00; /* Fallback color */
-    background-color: #ffcc00; /* Fallback background color */
-    background-image: linear-gradient(to right, #ffcc00, #ff6666, #3399ff); 
+    /* color: #ffcc00; 
+    background-color: #ffcc00; 
+    background-image: linear-gradient(to right, #ffcc00, #ff6666, #3399ff);  */
     border-radius: 5px;
  }
 
@@ -29,6 +29,9 @@
     /* max-width: 350px; */
     width: 90%;
     text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     /* Align text left */
 }
 
@@ -52,9 +55,10 @@
 
 .textimonial-image {
     width: 20%;
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 100%;
     border-radius: 10px;
+    align-items: center;
 }
 
 .imgaediv {

@@ -12,7 +12,7 @@ const Testimonial = () => {
         try {
             let res = await axios.get("https://api.myriccoproducts.com/api/testimonial")
             console.log(res)
-            setData(res.data.data)
+           await setData(res.data.data)
         } catch (error) {
             console.log(error);
         }

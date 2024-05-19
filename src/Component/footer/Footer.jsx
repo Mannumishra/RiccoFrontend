@@ -98,14 +98,14 @@ const Footer = () => {
                 <div className='fistdivfooter'>
                     <div>
                         <p className='footerheanding'>About the shop</p>
-                        <p>Dusk is redefining comfort with a sprinkle of surprise. Started in New Delhi in the year we needed it most, 2020, Dusk is bringing sophistication and style not just to your bedrooms, but also creating chic, and comfortable ensembles to flaunt in the day.</p>
-                        <p>Dusk offers thoughtfully designed resort wear, dresses, co-ord sets, pyjama sets, and sleepwear.</p>
+                        <p>Ricco is redefining cleanliness with a sprinkle of surprise. Started in New Delhi in the year we needed it most, 2020, Ricco is bringing sophistication and style not just to your cleaning routine, but also creating effective, and eco-friendly products for a sparkling home.</p>
+                        <p>Ricco offers thoughtfully designed detergents, cleaning products, and home care solutions.</p>
                     </div>
                     <div style={{ display: "flex", gap: "20px" }}>
-                        <i className="fa fa-twitter"></i>
-                        <i className="fa fa-facebook"></i>
-                        <i className="fa fa-youtube"></i>
-                        <i className="fa fa-linkedin"></i>
+                        <i className="fa fa-twitter"style={{color:"#1DA1F2"}} ></i>
+                        <i className="fa fa-facebook" style={{color:"#1877F2"}}></i>
+                        <i className="fa fa-youtube" style={{color:"#FF0000"}}></i>
+                        <i className="fa fa-linkedin" style={{color:"#0A66C2"}}></i>
                     </div>
                 </div>
                 <div className='seconddivfooter'>
