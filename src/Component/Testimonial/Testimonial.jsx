@@ -48,7 +48,7 @@ const Testimonial = () => {
     }
     return (
         <div className="testimonial-section">
-            <p className="section-title">Our Coustmor Review</p>
+            <p className="section-title">Our Coustmor Says</p>
             <div className="testimonial-container">
                 {
                     loading ? <h4>Product is Loading</h4> :
