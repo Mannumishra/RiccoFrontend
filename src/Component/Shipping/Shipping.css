@@ -1,0 +1,43 @@
+/* Shipping.css */
+.shipping-container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .shipping-container h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .shipping-container h2 {
+    color: #555;
+    margin-top: 20px;
+  }
+  
+  .shipping-container p {
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .shipping-container {
+      padding: 10px;
+    }
+  
+    .shipping-container h1 {
+      font-size: 24px;
+    }
+  
+    .shipping-container h2 {
+      font-size: 18px;
+    }
+  }
+  

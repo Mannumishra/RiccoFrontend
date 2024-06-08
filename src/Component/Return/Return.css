@@ -1,0 +1,43 @@
+/* Return.css */
+.return-container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .return-container h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .return-container h2 {
+    color: #555;
+    margin-top: 20px;
+  }
+  
+  .return-container p {
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .return-container {
+      padding: 10px;
+    }
+  
+    .return-container h1 {
+      font-size: 24px;
+    }
+  
+    .return-container h2 {
+      font-size: 18px;
+    }
+  }
+  

@@ -111,13 +111,14 @@ const Footer = () => {
                 <div className='seconddivfooter'>
                     <p className='footerheanding mt-2'>USe Full Link</p>
                     <Link to="/contact" className='footerlinks'> <p className='mt-4'>ContactUs</p></Link>
-                    <Link to="/#" className='footerlinks'> <p>Return policy</p></Link>
-                    <Link to="/#" className='footerlinks'> <p>Privacy Policy</p></Link>
-                    <Link to="/#" className='footerlinks'> <p>Term of use</p></Link>
-                    <Link to="/#" className='footerlinks'> <p>Order and shipping</p></Link>
-                    <Link to="/#" className='footerlinks'> <p>Term & Service </p></Link>
-                    <Link to="/#" className='footerlinks'> <p>Exchange & Return </p></Link>
-                    <Link to="/#" className='footerlinks'> <p>Refund Policy</p></Link>
+                    <Link to="/term" className='footerlinks'> <p>Term & Condition</p></Link>
+                    <Link to="/shipping" className='footerlinks'> <p>Shipping & Delivery</p></Link>
+                    <Link to="/privacy" className='footerlinks'> <p>Privacy Policy</p></Link>
+                    <Link to="/refund" className='footerlinks'> <p>Return & Refund Policy</p></Link>
+                    
+                    
+                    
+                    {/* <Link to="/#" className='footerlinks'> <p></p></Link> */}
 
                 </div>
                 <div className='thirddivfooter'>

@@ -28,6 +28,10 @@ import Riccodetr from './Component/Category/Ricoditergent/Riccodetr';
 import Supercleen from './Component/Category/Superclean/Supercleen';
 import Thanku from './Component/Thanku/Thanku';
 import Toiletcleaner from './Component/Category/Tilecleaner/Toiletcleaner';
+import Term from './Component/Term/Term';
+import Shipping from './Component/Shipping/Shiping';
+import Privacy from './Component/Privacy/Privacy';
+import Return from './Component/Return/Return';
 
 function App() {
   return (
@@ -58,6 +62,10 @@ function App() {
           <Route path='/supercleen' element={<Supercleen />} />
           <Route path='/toilet' element={<Toiletcleaner />} />
           <Route path='/thanku' element={<Thanku />} />
+          <Route path='/term' element={<Term />} />
+          <Route path='/shipping' element={<Shipping />} />
+          <Route path='/privacy' element={<Privacy />} />
+          <Route path='/refund' element={<Return />} />
 
         </Routes>
         <Footer />
