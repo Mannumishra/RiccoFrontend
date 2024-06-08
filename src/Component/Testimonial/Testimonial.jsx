@@ -51,7 +51,7 @@ const Testimonial = () => {
             <p className="section-title">Our Coustmor Says</p>
             <div className="testimonial-container">
                 {
-                    loading ? <h4>Product is Loading</h4> :
+                    loading ? <h4>Loading Please Wait...</h4> :
                         (
                             <OwlCarousel className='owl-theme' {...options}>
                                 {
