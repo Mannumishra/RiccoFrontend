@@ -98,8 +98,8 @@ const Footer = () => {
                 <div className='fistdivfooter'>
                     <div>
                         <p className='footerheanding'>About the shop</p>
-                        <p>Ricco is redefining cleanliness with a sprinkle of surprise. Started in New Delhi in the year we needed it most, 2020, Ricco is bringing sophistication and style not just to your cleaning routine, but also creating effective, and eco-friendly products for a sparkling home.</p>
-                        <p>Ricco offers thoughtfully designed detergents, cleaning products, and home care solutions.</p>
+                        <p>Shree Baijnath industries is redefining cleanliness with a sprinkle of surprise. Started in New Delhi in the year we needed it most, 2020, Shree Baijnath industries is bringing sophistication and style not just to your cleaning routine, but also creating effective, and eco-friendly products for a sparkling home.</p>
+                        <p>Shree Baijnath industries offers thoughtfully designed detergents, cleaning products, and home care solutions.</p>
                     </div>
                     <div style={{ display: "flex", gap: "20px" }}>
                         <i className="fa fa-twitter"style={{color:"#1DA1F2"}} ></i>
