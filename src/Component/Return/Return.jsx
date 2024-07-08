@@ -20,7 +20,7 @@ const Return = () => {
   <p>To initiate a return, please contact our customer service team with your order number and reason for return. We will provide you with instructions on how to return your item.</p>
 
   <h2>3. Refund Processing</h2>
-  <p>Once your return is received and inspected, we will send you an email to notify you that we have received your returned item. We will also notify you of the approval or rejection of your refund. If your refund is approved, it will be processed, and a credit will automatically be applied to your original method of payment within a certain number of days.</p>
+  <p>Once your return is received and inspected, we will send you an email to notify you that we have received your returned item. We will also notify you of the approval or rejection of your refund. If your refund is approved, it will be processed 3 to 4 days, and a credit will automatically be applied to your original method of payment within a certain number of days.</p>
 
   <h2>4. Return Shipping</h2>
   <p>You will be responsible for paying for your own shipping costs for returning your item. Shipping costs are non-refundable. If you receive a refund, the cost of return shipping will be deducted from your refund.</p>
